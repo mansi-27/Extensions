@@ -66,5 +66,19 @@ extension UIView {
         self.layer.borderColor = color.cgColor
     }
     
+    //Pulsating animation for image views
+    func animateLogo(imageView: UIImageView){
+        
+        UIView.animate(withDuration: 1, animations: {
+            imageView.transform = CGAffineTransform(scaleX: 1.1, y: 1.1)
+        }) { (success) in
+            UIView.animate(withDuration: 1, animations: {
+                imageView.transform = CGAffineTransform(scaleX: 0.7, y: 0.7)
+            }, completion: nil)
+            
+            animateLogo(imageView: imageView)
+        }
+    }
+    
 }
 

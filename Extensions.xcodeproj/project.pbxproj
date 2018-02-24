@@ -85,7 +85,7 @@
 				532C8992203F318400E772D8 /* Assets.xcassets */,
 				532C8994203F318400E772D8 /* LaunchScreen.storyboard */,
 				532C8997203F318400E772D8 /* Info.plist */,
-				532C89AD203F330700E772D8 /* UIView+Extensions.swift */,
+				53D601E12041CE17009FAA3B /* Extensions */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -97,6 +97,14 @@
 				532C89A2203F318500E772D8 /* Info.plist */,
 			);
 			path = ExtensionsTests;
+			sourceTree = "<group>";
+		};
+		53D601E12041CE17009FAA3B /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				532C89AD203F330700E772D8 /* UIView+Extensions.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
